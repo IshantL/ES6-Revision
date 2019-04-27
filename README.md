@@ -7,6 +7,25 @@
 ```
 let greet = "GM";
 let greet = "GN"
+//throws error...
+
+var greet = "GM";
+var greet = "GN"
+//works fine
 ```
 
 4. In let as we have block scope we can create 2 variables with same name, one in global and one in block.
+
+```
+let greet = "GM";
+
+if(true){
+let greet ="GN";
+console.log(greet);
+}
+console.log(greet);
+
+//output
+//GN
+//GM
+```
