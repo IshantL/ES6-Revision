@@ -66,3 +66,4 @@ for(let i=0; i<5; i++){
  3
  4
 ```
+7. Const have the constabnt value. We can initialize two same const variable but both should be in differnt block, as it also have block scope.
