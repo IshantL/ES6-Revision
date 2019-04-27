@@ -40,3 +40,29 @@ console.log(greet);
 console.log(greet);
 // GN
 // GN
+```
+6. Example
+for var it uses global variable and update the value of "i" i.e the same variable to 5 in 2 sec.
+```
+for(var i=0; i<5; i++){
+	setTimeout(()=>{
+     console.log(i);
+    },2000);
+}
+
+//(5) 5
+```
+if we use let then
+```
+for(let i=0; i<5; i++){
+	setTimeout(()=>{
+     console.log(i);
+    },2000);
+}
+
+ 0
+ 1
+ 2
+ 3
+ 4
+```
