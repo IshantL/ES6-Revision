@@ -29,3 +29,14 @@ console.log(greet);
 //GN
 //GM
 ```
+5. If we initilize by let and then we can change the value, the value gets changed.
+```
+let greet = "GM";
+
+if(true){
+greet ="GN";
+console.log(greet);
+}
+console.log(greet);
+// GN
+// GN
