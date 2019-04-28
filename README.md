@@ -298,6 +298,21 @@ const { name: fname= "ABC", profession: prof ="XYZ", experience, social } = pers
 ```
 ## Classes & Inheritance
 
-First we will see prototype Inheritance:
+First we will see normal object creation by function
+```
+function createEmployeeObject(fn,ln,gender) {
+var obj ={};
+obj.fn = fn;
+obj.ln = ln;
+obj.gender = gender;
+return obj;
+}
+
+conct emp1 = createEmployeeObject("Atul","Verma","Male");
+
+Using Constructor
+
+When we use new keyword the JS put var this={}; 
+```
 
 
