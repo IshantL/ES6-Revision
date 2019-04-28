@@ -67,3 +67,13 @@ for(let i=0; i<5; i++){
  4
 ```
 7. Const have the constabnt value. We can initialize two same const variable but both should be in differnt block, as it also have block scope.
+```
+const pi =3.14;
+{
+const pi =3.14555;
+console.log(pi);
+}
+console.log(pi);
+// 3.14555
+// 3.14
+```
