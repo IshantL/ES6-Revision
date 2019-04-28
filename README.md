@@ -128,3 +128,26 @@ let mgs = `The Area of circle is ${ pi *r*r}`;
 console.log(mgs);
 Output: The Area of circle is 12.56
 ```
+3. Template literal remeber the formatting also
+```
+const per ={
+name:"Ishant",
+company: "Google",
+role: "Software Developer"
+}
+
+
+
+var tmsg = `
+Hi, my name is ${per.name}. 
+I works at ${per.company }.
+`;
+
+console.log(tmsg);
+Output: 
+ 
+Hi, my name is Ishant. 
+I works at Google.
+
+
+```
