@@ -77,3 +77,13 @@ console.log(pi);
 // 3.14555
 // 3.14
 ```
+8. In const, if we initialize the object then we can change its properties.
+```
+const per = {name: "Ishant"};
+console.log(per);
+per.name = "John";
+console.log(per);
+output:
+{name: "Ishant"}
+{name: "John"}
+```
