@@ -87,7 +87,7 @@ output:
 {name: "Ishant"}
 {name: "John"}
 ```
-we cant replace the oject , only we can change its properties
+we cant replace the object , only we can change its properties
 ```
 const per = {name: "Ishant"};
 console.log(per);
@@ -99,3 +99,24 @@ output:
  Uncaught TypeError: Assignment to constant variable.
     at <anonymous>:3:5
  ```
+ 
+ ## Template Literal
+ 1. It simplified the use of concatination by using the back tick "`".
+ for example
+ ```
+ const per ={
+name:"Ishant",
+company: "Google",
+role: "Software Developer"
+}
+
+var msg = "Hi, my name is" + per.name+ ". I works at " +per.company + ".";
+console.log(msg);
+Output: Hi, my name isIshant. I works at Google.
+
+
+var tmsg = `Hi, my name is ${per.name}. I works at ${per.company }.`;
+console.log(tmsg);
+Output: Hi, my name is Ishant. I works at Google.
+```
+
