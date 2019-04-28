@@ -181,3 +181,25 @@ Ishant
 Google
 Software Developer
 ```
+2. We can also use rest operator .
+```
+const per ={
+name:"Ishant",
+company: "Google",
+role: "Software Developer"
+}
+
+function bio(arr, ...arg){
+console.log(arr);
+console.log(arg);
+
+}
+
+const tmsg = bio `Hi, my name is ${per.name}. I works at ${per.company }. My role is ${per.role}`;
+
+Output:
+
+(4) ["Hi, my name is ", ". I works at ", ". My role is ", "", raw: Array(4)]0: "Hi, my name is "1: ". I works at "2: ". My role is "3: ""length: 4raw: Array(4)0: "Hi, my name is "1: ". I works at "2: ". My role is "3: ""length: 4__proto__: Array(0)__proto__: Array(0)
+
+[Ishant, Google, Software Developer]
+```
