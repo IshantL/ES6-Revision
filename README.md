@@ -285,3 +285,14 @@ facebook:"www.facebook.com/Ishant"
 const { name, profession, experience, social } = person;
 
 ```
+We can also map object properies into different variable name of our choice
+
+```
+const { name: fname, profession: prof, experience, social } = person;
+
+```
+We can also give default value, It is used when value is undefined and object property is missing.
+```
+const { name: fname= "ABC", profession: prof ="XYZ", experience, social } = person;
+
+```
