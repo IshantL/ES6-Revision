@@ -235,3 +235,20 @@ in case of multiple arguments
 const square = (a,b) = a*b;
 
 ```
+
+Program:
+```
+const course = ["java","c","react"];
+
+
+const site ="google.com";
+
+const output = course.map( temp => ({"course" : `${temp}`, "Site": `${site}` }));
+console.log(output);
+
+output: 
+(3) [{…}, {…}, {…}]
+0: {course: "java", Site: "google.com"}
+1: {course: "c", Site: "google.com"}
+2: {course: "react", Site: "google.com"}
+```
