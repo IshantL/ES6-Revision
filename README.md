@@ -87,3 +87,15 @@ output:
 {name: "Ishant"}
 {name: "John"}
 ```
+we cant replace the oject , only we can change its properties
+```
+const per = {name: "Ishant"};
+console.log(per);
+per = {name: "john"};
+console.log(per);
+output:
+
+ {name: "Ishant"}
+ Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:3:5
+ ```
