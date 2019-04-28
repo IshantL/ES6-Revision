@@ -151,3 +151,4 @@ I works at Google.
 
 
 ```
+4. We can also write the HTML inside the template literal and assign to a variable. In react Jsx we have to use this template literal lot of time.
