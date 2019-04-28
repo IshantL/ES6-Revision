@@ -101,7 +101,7 @@ output:
  ```
  
  ## Template Literal
- 1. It simplified the use of concatination by using the back tick "`".
+ 1. It simplifies the use of concatination by using the back tick "`".
  for example
  ```
  const per ={
@@ -119,4 +119,12 @@ var tmsg = `Hi, my name is ${per.name}. I works at ${per.company }.`;
 console.log(tmsg);
 Output: Hi, my name is Ishant. I works at Google.
 ```
+2. We can also do calculations in literal.
 
+```
+const pi = 3.14;
+const r = 2;
+let mgs = `The Area of circle is ${ pi *r*r}`;
+console.log(mgs);
+Output: The Area of circle is 12.56
+```
