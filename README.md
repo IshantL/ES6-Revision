@@ -236,7 +236,8 @@ const square = (a,b) = a*b;
 
 ```
 
-Program:
+Program No 1:
+To get the output in format {course: "java", Site: "google.com"}
 ```
 const course = ["java","c","react"];
 
@@ -251,4 +252,21 @@ output:
 0: {course: "java", Site: "google.com"}
 1: {course: "c", Site: "google.com"}
 2: {course: "react", Site: "google.com"}
+```
+Program No 2:
+To print the movies based on their rating descending.
+```
+const movies = [
+{name:"A", rating:5.5},
+{name:"B", rating:8.5},
+{name:"C", rating:4.5}
+]
+
+movies.sort((a,b) => a.rating > b.rating ? -1 : 1 );
+
+Output:
+(3) [{…}, {…}, {…}]
+0: {name: "B", rating: 8.5}
+1: {name: "A", rating: 5.5}
+2: {name: "C", rating: 4.5}
 ```
