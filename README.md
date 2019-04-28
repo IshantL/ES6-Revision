@@ -296,3 +296,8 @@ We can also give default value, It is used when value is undefined and object pr
 const { name: fname= "ABC", profession: prof ="XYZ", experience, social } = person;
 
 ```
+## Classes & Inheritance
+
+First we will see prototype Inheritance:
+
+
