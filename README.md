@@ -203,3 +203,35 @@ Output:
 
 [Ishant, Google, Software Developer]
 ```
+## Arrow Functions
+
+1.consize code
+2.Implicit return
+3. No 'this' Binding.
+```
+normal functions:
+
+function square(a){
+return a*a;
+}
+
+console.log(square(2));
+output -> 4
+
+const square = function(a){
+return a*a;
+}
+
+console.log(square(2));
+output -> 4
+```
+ES6
+```
+const square = a = a*a;
+
+```
+in case of multiple arguments
+```
+const square = (a,b) = a*b;
+
+```
