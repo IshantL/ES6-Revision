@@ -1,4 +1,4 @@
-"# ES6-Revision" 
+# ES6 Guide 
 
 ## Var, Let and Const 
 1. Var have functional scope and can be accessible to global if it is created in global space.
