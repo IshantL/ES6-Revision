@@ -270,3 +270,18 @@ Output:
 1: {name: "A", rating: 5.5}
 2: {name: "C", rating: 4.5}
 ```
+## Destructuring Object
+
+```
+const person = {
+name: "Ishant",
+profession: "Web Developer",
+experience: "3+",
+social:{
+facebook:"www.facebook.com/Ishant"
+}
+}
+
+const { name, profession, experience, social } = person;
+
+```
