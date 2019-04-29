@@ -316,3 +316,4 @@ When we use new keyword the JS put var this={};
 ```
 
 
+In JavaScript, we already ave the concept of Inheritance and it is by using Protoypal Inheritance.
