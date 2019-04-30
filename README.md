@@ -298,6 +298,26 @@ const { name: fname= "ABC", profession: prof ="XYZ", experience, social } = pers
 ```
 ## Classes & Inheritance
 
+Before we starts with the Classes and Inheritance , we will see the Objects and prototypes in depth.
+
+Object is basically a key value pair, collection onf multiple values.
+Object can be created in multiple ways
+
+```
+var myObj ={};
+
+to add the properties in object
+
+myObj.foo = "Hello";
+
+var myObj = {
+    name: "Ishant",
+    company:"Google",
+    address:{
+        city:"Hyd",
+    }
+}
+```
 First we will see normal object creation by function
 ```
 function createEmployeeObject(fn,ln,gender) {
